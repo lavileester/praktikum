@@ -18,9 +18,9 @@ class MahasiswaController extends Controller
     // Latihan a
     public function profil()
     {
-        $nama  = 'Nama Kamu';
-        $nim   = 'NIM Kamu';
-        $prodi = 'Teknik Informatika';
+        $nama  = 'Yokie Aditya Warman';
+        $nim   = '242520136';
+        $prodi = 'Teknologi Informasi';
 
         return view('mahasiswa.profil', compact('nama', 'nim', 'prodi'));
     }
